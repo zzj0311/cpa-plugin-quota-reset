@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "quota-reset",
+      "name": "Quota Activation Local",
+      "description": "cpaDash fork: live Codex usage gate (used_percent < 95) plus reset-quota local cooldown clear after recovery.",
+      "author": "cpaDash",
+      "version": "0.0.10",
+      "repository": "https://github.com/zzj0311/cpa-plugin-quota-reset",
+      "homepage": "https://github.com/zzj0311/cpa-plugin-quota-reset",
+      "license": "MIT",
+      "tags": [
+        "quota",
+        "activation",
+        "codex",
+        "antigravity",
+        "management",
+        "local-fork"
+      ]
+    }
+  ]
+}
