@@ -1,0 +1,79 @@
+# 构建产物
+quota-activation
+quota-activation.h
+quota-activation.so
+quota-activation.dylib
+quota-activation.dll
+*.so
+*.dylib
+*.dll
+*.exe
+*.h
+*.a
+*.o
+*.test
+*.out
+
+bin/
+dist/
+tmp/
+build/
+package/
+
+coverage.out
+coverage.html
+*.coverprofile
+
+# 本地运行与缓存
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+state.json
+*.state
+
+# 本地配置与敏感材料
+.env
+.env.*
+.local/
+*.local
+management-key.txt
+*management-key*
+*token*
+*secret*
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+auth-files/
+auth_files/
+credentials/
+*.auth.json
+
+# 本地规划/草稿文档
+planning-with-files/
+AGENTS.md
+大纲.md
+git规范.md
+草稿.md
+
+# Host-specific maintenance helpers remain local
+scripts/apply-recovered-config-ssh.sh
+scripts/deploy-remote.sh
+scripts/ensure-store-source.sh
+scripts/install-from-store.sh
+scripts/package-release.sh
+scripts/patch-remote-config.sh
+scripts/rebuild-config-from-dump.py
+scripts/recover-config-ssh.sh
+scripts/release-github.sh
+
+# Python test caches
+__pycache__/
+*.py[cod]
+
+# Local fork keeps unit tests; still ignore fixtures unless needed.
+testdata/
+**/testdata/
